@@ -6,7 +6,8 @@ services:
       - 80:80
     hostname: swaggerui
     volumes:
-      - ./swagger.json:/app/swagger.json
+      - ./swagger.json:/app/swagger/swagger.json
+
 
   # swaggerui_novolume:
   #   build: .
